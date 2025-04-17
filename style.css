@@ -1,0 +1,102 @@
+/* Styling of NewsApp for classComponent */
+/* .background {
+    background: linear-gradient(to right, grey, black);
+} */
+
+.active {
+    border-bottom: 2px solid white;
+    background-color: grey !important;
+}
+
+.card-title {
+    font-size: 1rem;
+    height:110px;
+}
+
+.card-source{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+}
+
+.card-source p {
+    font-size:0.8rem;
+}
+
+.card-text{
+    font-size:0.9rem;
+    height:200px;
+}
+
+@media only screen and (min-width:0px) and (max-width:575px){
+    .card-title {
+        font-size: 0.9rem;
+        height:40px;
+    }
+    .card-source p {
+        font-size:0.8rem;
+    }
+    
+    .card-text{
+        font-size:0.8rem;
+        height:70px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px){
+    .card-title {
+        font-size: 0.9rem;
+        height:60px;
+    }
+    .card-source p {
+        font-size:0.8rem;
+    }
+    
+    .card-text{
+        font-size:0.8rem;
+        height:130px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .card-title {
+        font-size: 0.9rem;
+        height:60px;
+    }
+    .card-source p {
+        font-size:0.8rem;
+    }
+    
+    .card-text{
+        font-size:0.8rem;
+        height:155px;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .card-title {
+        font-size: 0.9rem;
+        height:80px;
+    }
+    .card-source p {
+        font-size:0.8rem;
+    }
+    
+    .card-text{
+        font-size:0.8rem;
+        height:160px;
+    }
+}
+   
+
+/* Styling of NewsApp for Functional Component*/
+
+.background{
+    background: linear-gradient(to right ,#7ab7cb , #00080a);
+}
+
+/* .active{
+    border-bottom: 2px solid white;
+    background-color: #231010 !important;
+    border-radius: 5%;
+} */
